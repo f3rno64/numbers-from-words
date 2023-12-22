@@ -3,6 +3,7 @@
 import { expect } from 'chai'
 
 import parse from '../parse'
+import { InvalidInputError } from '../errors'
 import { Numbers, Magnitudes, Multiples } from '../types'
 import { NUMBER_WORDS, MAGNITUDE_WORDS, MULTIPLES_WORDS } from '../const'
 
@@ -91,4 +92,24 @@ describe('parse', () => {
       })
     }
   }
+
+  it('throws an error if the input contains two multiples in a row', () => {
+    expect(() => parse('twenty thirty')).to.throw(InvalidInputError)
+  })
+
+  it('throws an error if the input contains two numbers in a row', () => {
+    expect(() => parse('one two')).to.throw(InvalidInputError)
+  })
+
+  it('throws an error if the input has a magnitude but no quantity', () => {
+    expect(() => parse('million')).to.throw(InvalidInputError)
+  })
+
+  it('throws an error if the input has a number before a multiple', () => {
+    expect(() => parse('one twenty')).to.throw(InvalidInputError)
+  })
+
+  it('parses a single multiple', () => {
+    expect(parse('thirty')).to.equal(30)
+  })
 })
