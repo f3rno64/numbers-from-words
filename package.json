@@ -1,6 +1,6 @@
 {
   "name": "to-numbers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A utility library for parsing numbers from words.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,9 +26,8 @@
     "lint": "eslint -f unix \"src/**/*.{ts,tsx}\"",
     "update-deps": "updates -u -g -c",
     "update-version": "standard-version",
-    "prepare": "husky install",
-    "prepublish": "npm run build",
     "prepare": "npm run lint && npm run test && npm run build && npm run docs",
+    "prepublish": "npm run build",
     "release": "npm run prepare && npm run update-version && git push --follow-tags origin main && npm publish"
   },
   "devDependencies": {
