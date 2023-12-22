@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/f3rno64/to-numbers/compare/v0.0.5...v0.0.6) (2023-12-22)
+
+
+### Bug Fixes
+
+* git add docs after gen in prepare-release script ([6843104](https://github.com/f3rno64/to-numbers/commit/6843104ccb417e324836422a40ea188ed0b337bc))
+
 ### [0.0.5](https://github.com/f3rno64/to-numbers/compare/v0.0.4...v0.0.5) (2023-12-22)
 
 

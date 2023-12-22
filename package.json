@@ -1,6 +1,6 @@
 {
   "name": "to-numbers",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A utility library for parsing numbers from words.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
