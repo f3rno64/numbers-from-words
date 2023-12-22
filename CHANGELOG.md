@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/f3rno64/to-numbers/compare/v0.0.6...v0.0.7) (2023-12-22)
+
+
+### Bug Fixes
+
+* add unstaged changes when executing standard-version ([c7647f9](https://github.com/f3rno64/to-numbers/commit/c7647f9ee976e00ae88ac11e20a65ddfb5c304cb))
+
 ### [0.0.6](https://github.com/f3rno64/to-numbers/compare/v0.0.5...v0.0.6) (2023-12-22)
 
 
