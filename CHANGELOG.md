@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/f3rno64/to-numbers/compare/v0.0.4...v0.0.5) (2023-12-22)
+
+
+### Bug Fixes
+
+* clobbered prepare script, rename it ([e7281ae](https://github.com/f3rno64/to-numbers/commit/e7281ae9f8dfbaac76fd0a3aa54b9de5db90ca91))
+
 ### [0.0.4](https://github.com/f3rno64/to-numbers/compare/v0.0.3...v0.0.4) (2023-12-22)
 
 
