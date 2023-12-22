@@ -28,7 +28,7 @@
     "update-version": "standard-version",
     "prepare": "npm run lint && npm run test && npm run build && npm run docs",
     "prepublish": "npm run build",
-    "release": "npm run prepare && npm run update-version && git push --follow-tags origin main && npm publish"
+    "release": "npm run prepare && npm run update-version && git push --follow-tags origin main"
   },
   "devDependencies": {
     "@eslint/js": "^8.54.0",
