@@ -1,4 +1,4 @@
-# to-numbers - A library for parsing words to numbers
+# numbers-from-words - A library for parsing words to numbers
 
 [![NPM Version][npm-image]][npm-url]
 [![Downloads Stats][npm-downloads]][npm-url]
@@ -13,7 +13,7 @@ numbers into their numeric values. Supports a wide variety of inputs, such as:
 ## Installation
 
 ```bash
-npm i --save to-numbers
+npm i --save numbers-from-words
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ Import the `parse` function call it with the input string containing words
 defining a number/quantity.
 
 ```js
-import { parse } from 'to-numbers'
+import { parse } from 'numbers-from-words'
 
 const numberA = parse('twenty two')
 const numberB = parse('one thousand and twenty three')
@@ -52,6 +52,6 @@ information.
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
 
-[npm-image]: https://img.shields.io/npm/v/@f3rno64/to-numbers.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@f3rno64/to-numbers
-[npm-downloads]: https://img.shields.io/npm/dm/@f3rno64/to-numbers.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/@f3rno64/numbers-from-words.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@f3rno64/numbers-from-words
+[npm-downloads]: https://img.shields.io/npm/dm/@f3rno64/numbers-from-words.svg?style=flat-square

@@ -1,15 +1,15 @@
 {
-  "name": "to-numbers",
+  "name": "numbers-from-words",
   "version": "0.0.7",
   "description": "A utility library for parsing numbers from words.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/f3rno64/to-numbers",
+  "repository": "https://github.com/f3rno64/numbers-from-words",
   "author": "Cris Mihalache <f3rno64@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/f3rno64/to-numbers",
+  "homepage": "https://github.com/f3rno64/numbers-from-words",
   "bugs": {
-    "url": "https://github.com/f3rno64/to-numbers/issues"
+    "url": "https://github.com/f3rno64/numbers-from-words/issues"
   },
   "keywords": [
     "words to numbers",
