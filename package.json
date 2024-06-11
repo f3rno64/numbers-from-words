@@ -19,9 +19,9 @@
   ],
   "scripts": {
     "docs": "npx typedoc --out docs src && cp LICENSE.md docs/LICENSE.md && cp CHANGELOG.md docs/CHANGELOG.md",
-    "test": "NODE_PATH=./src NODE_ENV=test mocha",
+    "test": "NODE_PATH=./src NODE_ENV=test mocha --bail",
     "test:coverage": "NODE_PATH=./src NODE_ENV=test nyc mocha",
-    "test:watch": "NODE_PATH=./src NODE_ENV=test nyc mocha --watch",
+    "test:watch": "NODE_PATH=./src NODE_ENV=test nyc mocha --watch  --bail",
     "build": "NODE_PATH=./src tsc -p tsconfig.json",
     "lint": "eslint -f unix \"src/**/*.{ts,tsx}\"",
     "update-deps": "updates -u -g -c",
